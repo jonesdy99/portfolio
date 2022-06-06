@@ -9,9 +9,16 @@ window.addEventListener('scroll',function(){
 const navSlide=() => {
   const burger = document.querySelector('.burger')
   const nav = document.querySelector('.links')
+  const links = document.querySelectorAll('.links li')
   burger.addEventListener('click',() => {
     nav.classList.toggle('links-active')
+    links.forEach((link,index) => {
+      if(link.style.animation){
+        link.style.animation = ''
+      } else {
+        link.style.animation = `linksFade 0.5s ease forwards ${index / 7 + .5}s`
+      }
+    })
   })
 }
-
 navSlide()
