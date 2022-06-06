@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* *, */
 
 /* @media only screen and (min-width:1024px){ */
-
-.nav-button{
-  position: fixed;
-  top:0;
-  left:0;
-  width:100%;
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  transition:0.6s;
-  padding: 40px 100px;
+  min-height: 8vh;
+  background-color: #333;
+  font-family: 'Poppins', sans-serif;
 }
 
-
-  .section {
+.section {
   height: 100vh;
   width: 100%;
   position: relative;
@@ -45,20 +46,12 @@ h1 {
   padding-top: 150px;
 }
 
-* {
+
+#background {
+  background-image: url(https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
+  height:200vh;
+  background-size:cover;
+  background-repeat: no-repeat;
   margin:0;
   padding:0;
 }
-#background {
-background-image: url(https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
-height:200vh;
-background-size:cover;
-background-repeat: no-repeat;
-margin:0;
-padding:0;
-/* background-position: center center; */
-
-}
-
-
-/* } */
