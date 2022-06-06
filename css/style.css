@@ -121,10 +121,6 @@ h1 {
     display: block;
   }
 }
-.links-active{
-  transform: translateX(0%);
-}
-
 @keyframes linksFade{
   from{
     opacity: 0;
@@ -134,6 +130,10 @@ h1 {
     opacity: 1;
     transform: translateX(0px);
   }
+}
+
+.links-active{
+  transform: translateX(0%);
 }
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px,6px);
