@@ -3,13 +3,14 @@ var headerBg = document.getElementById('background')
 window.addEventListener('scroll',function(){
   // headerBg.style.opacity = 1 - +this.window.pageYOffset/1300+''
   headerBg.style.top = +this.window.pageYOffset+'px'
-  headerBg.style.backgroundPositionY = - +this.window.pageYOffset/12+'px'
+  headerBg.style.backgroundPositionY = - +this.window.pageYOffset/10+'px'
 })
 //
-const navSlide=() => {
   const burger = document.querySelector('.burger')
   const nav = document.querySelector('.links')
   const links = document.querySelectorAll('.links li')
+
+  const navSlide=() => {
   burger.addEventListener('click',() => {
     nav.classList.toggle('links-active')
     links.forEach((link,index) => {
