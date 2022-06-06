@@ -6,4 +6,12 @@ window.addEventListener('scroll',function(){
   headerBg.style.backgroundPositionY = - +this.window.pageYOffset/2+'px'
 })
 //
+const navSlide=() => {
+  const burger = document.querySelector('.burger')
+  const nav = document.querySelector('.links')
+  burger.addEventListener('click',() => {
+    nav.classList.toggle('links-active')
+  })
+}
 
+navSlide()
