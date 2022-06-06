@@ -120,6 +120,9 @@ h1 {
   .burger{
     display: block;
   }
+  .heading{
+    display: none;
+  }
 }
 @keyframes linksFade{
   from{
