@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* *, */
 
-/* @media only screen and (min-width:1024px){ */
 * {
   margin:0;
   padding:0;
@@ -45,6 +44,7 @@ nav{
   height:2px;
   background-color:whitesmoke;
   margin:5px;
+  transition: all 0.3s ease;
 }
 .section {
   height: 100vh;
@@ -58,8 +58,7 @@ nav{
   align-items: center;
 }
 .bg1 {
-  background-color: aqua;
-  background:linear-gradient(blue 45,teal 25,)
+  background: whitesmoke;
 }
 .bg2 {
   background-color: #333;
@@ -128,4 +127,13 @@ h1 {
     opacity: 1;
     transform: translateX(0px);
   }
+}
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-3px,-6px);
 }

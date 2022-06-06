@@ -19,6 +19,7 @@ const navSlide=() => {
         link.style.animation = `linksFade 0.5s ease forwards ${index / 7 + .5}s`
       }
     })
+    burger.classList.toggle('toggle')
   })
 }
 navSlide()
