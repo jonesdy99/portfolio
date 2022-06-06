@@ -88,6 +88,10 @@ h1 {
   .links{
     width:60%;
   }
+  #background{
+    display: flex;
+    height:100vh;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -97,7 +101,7 @@ h1 {
   .links{
     position: absolute;
     right:0px;
-    height:92vh;
+    height:100vh;
     top:8vh;
     background-color: #333;
     display: flex;
@@ -113,6 +117,16 @@ h1 {
   .burger{
     display: block;
   }
+  /* #background{
+    background-image: url(https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
+    display: flex;
+    height:69vh;
+  }
+  h1{
+    font-size:25px;
+    text-align: center;
+    padding-left: 150px;
+  } */
 }
 .links-active{
   transform: translateX(0%);
