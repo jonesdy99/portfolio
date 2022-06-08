@@ -93,6 +93,7 @@ h1 {
   transition: all 0.2s;
   background-color: transparent;
   margin-right: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 #resume{
   display: grid;
@@ -108,6 +109,7 @@ h1 {
   transition: all 0.2s;
   background-color: #ffffff00;
   margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
 }
 #git:hover{
   color: whitesmoke;
