@@ -77,8 +77,27 @@ h1 {
   padding-top: 150px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
-
+.git{
+  display: grid;
+  height: 30px;
+  margin-bottom: 600px;
+  padding:0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+.git:hover{
+  color: whitesmoke;
+  background-color: #333;
+  cursor: pointer;
+}
 
 #background {
   background-image: url(https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1376&q=80);
@@ -94,20 +113,26 @@ h1 {
     width:60%;
   }
   #background{
-    display: flex;
+    display: grid;
     height:150vh;
   }
-  .heading{
-  text-align: center;
-  font-size: 100px;
-  color: #333;
-  font-family: 'Lobster', cursive;
-  font-weight: 300;
-  padding-top: 150px;
-  padding-left: 270px;
-  display: flex;
-  justify-content: center;
+  .git{
+    display: grid;
+    height: 30px;
+    margin-bottom: 600px;
+    padding:0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
   }
+  /* h1{
+    display: grid;
+  } */
 }
 
 @media screen and (max-width:768px){
