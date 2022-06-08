@@ -93,7 +93,26 @@ h1 {
   transition: all 0.2s;
   background-color: transparent;
 }
+.resume{
+  display: grid;
+  height: 30px;
+  margin-bottom: 600px;
+  padding:0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+}
 .git:hover{
+  color: whitesmoke;
+  background-color: #333;
+  cursor: pointer;
+}
+.resume:hover{
   color: whitesmoke;
   background-color: #333;
   cursor: pointer;
@@ -117,6 +136,20 @@ h1 {
     height:150vh;
   }
   .git{
+    display: grid;
+    height: 30px;
+    margin-bottom: 600px;
+    padding:0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+  }
+  .resume{
     display: grid;
     height: 30px;
     margin-bottom: 600px;
