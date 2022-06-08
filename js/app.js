@@ -9,7 +9,7 @@ window.addEventListener('scroll',function(){
   const burger = document.querySelector('.burger')
   const nav = document.querySelector('.links')
   const links = document.querySelectorAll('.links li')
-
+  const gitBtn = document.getElementById('git')
 
   const navSlide=() => {
   burger.addEventListener('click',function(){
@@ -25,3 +25,7 @@ window.addEventListener('scroll',function(){
   })
 }
 navSlide()
+
+gitBtn.addEventListener('click',function(){
+  window.open('https://github.com/jonesdy99')
+})
