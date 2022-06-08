@@ -10,6 +10,7 @@ window.addEventListener('scroll',function(){
   const nav = document.querySelector('.links')
   const links = document.querySelectorAll('.links li')
   const gitBtn = document.getElementById('git')
+  const resBtn = document.getElementById('resume')
 
   const navSlide=() => {
   burger.addEventListener('click',function(){
@@ -28,4 +29,8 @@ navSlide()
 
 gitBtn.addEventListener('click',function(){
   window.open('https://github.com/jonesdy99')
+})
+
+resBtn.addEventListener('click',function(){
+  window.open('https://www.linkedin.com/in/dylan-j-8b3365122/')
 })
