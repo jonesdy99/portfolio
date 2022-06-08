@@ -95,7 +95,18 @@ h1 {
   }
   #background{
     display: flex;
-    height:100vh;
+    height:150vh;
+  }
+  .heading{
+  text-align: center;
+  font-size: 100px;
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-weight: 300;
+  padding-top: 150px;
+  padding-left: 270px;
+  display: flex;
+  justify-content: center;
   }
 }
 
@@ -124,6 +135,10 @@ h1 {
   }
   .heading{
     display: none;
+  }
+  #background{
+    display: flex;
+    height:90vh;
   }
 }
 @keyframes linksFade{

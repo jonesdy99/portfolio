@@ -11,7 +11,7 @@ window.addEventListener('scroll',function(){
   const links = document.querySelectorAll('.links li')
 
   const navSlide=() => {
-  burger.addEventListener('click',() => {
+  burger.addEventListener('click',function(){
     nav.classList.toggle('links-active')
     links.forEach((link,index) => {
       if(link.style.animation){
