@@ -10,6 +10,7 @@ window.addEventListener('scroll',function(){
   const nav = document.querySelector('.links')
   const links = document.querySelectorAll('.links li')
 
+
   const navSlide=() => {
   burger.addEventListener('click',function(){
     nav.classList.toggle('links-active')
