@@ -34,7 +34,7 @@ import { projectData } from "./project-data.js"
           <h5 class="card-title">${project.title}</h5>
           <p class="card-text">${project.description}</p>
           <div>
-            <a href="${project.github}" class="btn btn-primary">GitHub</a>
+            <a href="${project.github}" class="btn btn-primary">Code</a>
             <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
           </div>
         </div>

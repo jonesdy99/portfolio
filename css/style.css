@@ -81,14 +81,15 @@ h1 {
 }
 #git{
   display: grid;
-  height: 30px;
+  height: 40px;
+  width: 90px;
   margin-bottom: 600px;
   padding:0.35em 1.2em;
-  border: 0.15em solid #ffffff;
+  border: 0.15em solid #333;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  color: #ffffff;
+  color: #333;
   text-align: center;
   transition: all 0.2s;
   background-color: transparent;
@@ -97,14 +98,15 @@ h1 {
 }
 #resume{
   display: grid;
-  height: 30px;
+  height: 40px;
+  width: 90px;
   margin-bottom: 600px;
   padding:0.35em 1.2em;
-  border: 0.15em solid #ffffff;
+  border: 0.15em solid #333;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  color: #ffffff;
+  color: #333;
   text-align: center;
   transition: all 0.2s;
   background-color: #ffffff00;
@@ -114,12 +116,14 @@ h1 {
 #git:hover{
   color: whitesmoke;
   background-color: #333;
-  cursor: pointer;
+  cursor: pointer;  
+  border: 0.15em solid whitesmoke;
 }
 #resume:hover{
   color: whitesmoke;
   background-color: #333;
   cursor: pointer;
+  border: 0.15em solid whitesmoke;
 }
 
 #background {
@@ -177,42 +181,66 @@ h1 {
   background-color: whitesmoke;
   cursor: pointer;
 }
+.footer{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke;
+}
 
 @media screen and (max-width:1024px){
   .links{
-    width:60%;
+  width:60%;
   }
   #background{
-    display: grid;
-    height:150vh;
+  display: grid;
+  height:150vh;
   }
   #git{
-    display: grid;
-    height: 30px;
-    margin-bottom: 600px;
-    padding:0.35em 1.2em;
-    border: 0.1em solid #ffffff;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.2s;
-    background-color: #ffffff00;
+  display: grid;
+  height: 40px;
+  width: 90px;
+  margin-bottom: 600px;
+  padding:0.35em 1.2em;
+  border: 0.15em solid #333;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: transparent;
+  margin-right: 8px;
+  font-family: 'Poppins', sans-serif;
   }
   #resume{
-    display: grid;
-    height: 30px;
-    margin-bottom: 600px;
-    padding:0.35em 1.2em;
-    border: 0.1em solid #ffffff;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.2s;
-    background-color: #ffffff00;
+  display: grid;
+  height: 40px;
+  width: 90px;
+  margin-bottom: 600px;
+  padding:0.35em 1.2em;
+  border: 0.15em solid #333;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+  }
+  #git:hover{
+    color: whitesmoke;
+    background-color: #333;
+    cursor: pointer;  
+    border: 0.15em solid whitesmoke;
+  }
+  #resume:hover{
+    color: whitesmoke;
+    background-color: #333;
+    cursor: pointer;
+    border: 0.15em solid whitesmoke;
   }
 }
 
@@ -244,7 +272,53 @@ h1 {
   }
   #background{
     display: flex;
-    height:80vh;
+    height: 80vh;
+  }
+  #git{
+    display: flex;
+    height: 40px;
+    width: 90px;
+    margin-bottom: 600px;
+    padding:0.35em 1.2em;
+    border: 0.15em solid #333;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: transparent;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  #resume{
+    display: flex;
+    height: 40px;
+    width: 90px;
+    margin-bottom: 600px;
+    padding:0.35em 1.2em;
+    border: 0.15em solid #333;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+    margin-left: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  #git:hover{
+    color: whitesmoke;
+    background-color: #333;
+    cursor: pointer;  
+    border: 0.15em solid whitesmoke;
+  }
+  #resume:hover{
+    color: whitesmoke;
+    background-color: #333;
+    cursor: pointer;
+    border: 0.15em solid whitesmoke;
   }
 }
 @keyframes linksFade{
