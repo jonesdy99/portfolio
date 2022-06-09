@@ -69,9 +69,6 @@ resBtn.addEventListener('click',function(){
   window.open('https://www.linkedin.com/in/dylan-j-8b3365122/')
 })
 
-// gitBtn2.addEventListener('click',function(){
-//   window.open('https://github.com/jonesdy99')
-// })
 contact.addEventListener('click',function(){
   window.open('contact.html')
 })
