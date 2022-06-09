@@ -40,6 +40,46 @@ span {
   opacity: 0;
   filter: blur(4px);
 }
+#git-about{
+  padding:0.35em 1.2em;
+  border: 0.15em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+#link-about{
+  padding:0.35em 1.2em;
+  border: 0.15em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+#git-about:hover{
+  color: #333;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border: 0.15em solid #333;
+}
+#link-about:hover{
+  color: #333;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border: 0.15em solid #333;
+}
 
 span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);

@@ -17,6 +17,7 @@ import { projectData } from "./project-data.js"
   const gitBtn2 = document.getElementsByClassName('.btn-primary')
   const contact = document.getElementById('contact')
   const about = document.getElementById('about')
+  const gitAbt = document.getElementById('git-about')
 
   let project = {
     title: 'Tic-Tac-Toe',
@@ -76,3 +77,7 @@ contact.addEventListener('click',function(){
 about.addEventListener('click',function(){
   window.open('about.html')
 })
+
+// gitAbt.addEventListener('click',function(){
+//   window.open('https://github.com/jonesdy99')
+// })
