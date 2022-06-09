@@ -6,11 +6,42 @@ window.addEventListener('scroll',function(){
   headerBg.style.backgroundPositionY = - +this.window.pageYOffset/8.6+'px'
 })
 //
+import { projectData } from "./project-data.js"
+
   const burger = document.querySelector('.burger')
   const nav = document.querySelector('.links')
   const links = document.querySelectorAll('.links li')
   const gitBtn = document.getElementById('git')
   const resBtn = document.getElementById('resume')
+  const cardContainer = document.getElementById('card-container')
+
+  let project = {
+    title: 'Tic-Tac-Toe',
+    deployment: 'https://dylanj99tictactoe.netlify.app/',
+    image: '/assets/images/TicTac.jpg',
+    github: 'https://github.com/jonesdy99/ttt-weekend',
+    description: 'A Tic-Tac-Toe browser game that utilizes various basic JavaScript and CSS concepts'
+  }
+  let projectMarkup = projectData.map(project => 
+      `
+      <div id="card-container">
+      <div class="card text-center" style="width: 18rem;">
+        <img src="${project.image}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${project.title}</h5>
+          <p class="card-text">${project.description}</p>
+          <div>
+            <button a href="${project.github}" class="btn-primary">GitHub</a></button>
+            <button a href="${project.deployment}" class="btn-secondary">Deployment</a></button>
+          </div>
+        </div>
+      </div>
+      `
+    ).join('')
+    cardContainer.innerHTML = projectMarkup
+  
+  
+  
 
   const navSlide=() => {
   burger.addEventListener('click',function(){

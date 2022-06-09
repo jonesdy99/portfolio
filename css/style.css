@@ -61,7 +61,7 @@ nav{
   align-items: center;
 }
 .bg1 {
-  background: whitesmoke;
+  background: rgb(116, 114, 114);
 }
 .bg2 {
   background-color: #333;
@@ -130,6 +130,9 @@ h1 {
   margin:0;
   padding:0;
 }
+.card-text{
+  color: whitesmoke;
+}
 
 @media screen and (max-width:1024px){
   .links{
@@ -167,9 +170,6 @@ h1 {
     transition: all 0.2s;
     background-color: #ffffff00;
   }
-  /* h1{
-    display: grid;
-  } */
 }
 
 @media screen and (max-width:768px){
