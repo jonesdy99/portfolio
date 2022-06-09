@@ -244,7 +244,7 @@ h1 {
   }
   #background{
     display: flex;
-    height:90vh;
+    height:80vh;
   }
 }
 @keyframes linksFade{

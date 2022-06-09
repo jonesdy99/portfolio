@@ -16,6 +16,7 @@ import { projectData } from "./project-data.js"
   const cardContainer = document.getElementById('card-container')
   const gitBtn2 = document.getElementsByClassName('.btn-primary')
   const contact = document.getElementById('contact')
+  const about = document.getElementById('about')
 
   let project = {
     title: 'Tic-Tac-Toe',
@@ -73,4 +74,8 @@ resBtn.addEventListener('click',function(){
 // })
 contact.addEventListener('click',function(){
   window.open('contact.html')
+})
+
+about.addEventListener('click',function(){
+  window.open('about.html')
 })
