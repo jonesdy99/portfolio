@@ -271,6 +271,13 @@ h1 {
   #background{
     display: flex;
     height: 80vh;
+    background-position: fixed;
+  }
+  #git{
+    display: none;
+  }
+  #resume{
+    display: none;
   }
 }
 @keyframes linksFade{
