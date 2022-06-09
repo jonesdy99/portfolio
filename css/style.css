@@ -132,6 +132,47 @@ h1 {
 }
 .card-text{
   color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+.card-title{
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+  padding:0.35em 1.2em;
+  border: 0.15em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-secondary{
+  padding:0.35em 1.2em;
+  border: 0.15em solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #ffffff00;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-primary:hover{
+  color: #333;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.btn-secondary:hover{
+  color: #333;
+  background-color: whitesmoke;
+  cursor: pointer;
 }
 
 @media screen and (max-width:1024px){
