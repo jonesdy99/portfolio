@@ -189,6 +189,9 @@ h1 {
 }
 
 @media screen and (max-width:1024px){
+  body{
+    overflow-x: hidden;
+  }
   .links{
   width:60%;
   }
