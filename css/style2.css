@@ -11,9 +11,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #333;
 }
 h1{
   font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
 }
 p {
   font-family: 'Poppins', sans-serif;
@@ -21,6 +23,11 @@ p {
   text-align: center;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  color: whitesmoke;
+}
+.contact{
+  text-decoration: none;
+  color: whitesmoke;
 }
 @keyframes scale {
   100% {
