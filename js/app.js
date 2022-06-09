@@ -14,6 +14,8 @@ import { projectData } from "./project-data.js"
   const gitBtn = document.getElementById('git')
   const resBtn = document.getElementById('resume')
   const cardContainer = document.getElementById('card-container')
+  const gitBtn2 = document.getElementsByClassName('.btn-primary')
+  const contact = document.getElementById('contact')
 
   let project = {
     title: 'Tic-Tac-Toe',
@@ -31,8 +33,8 @@ import { projectData } from "./project-data.js"
           <h5 class="card-title">${project.title}</h5>
           <p class="card-text">${project.description}</p>
           <div>
-            <button a href="${project.github}" class="btn-primary">GitHub</a></button>
-            <button a href="${project.deployment}" class="btn-secondary">Deployment</a></button>
+            <a href="${project.github}" class="btn btn-primary">GitHub</a>
+            <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
           </div>
         </div>
       </div>
@@ -64,4 +66,11 @@ gitBtn.addEventListener('click',function(){
 
 resBtn.addEventListener('click',function(){
   window.open('https://www.linkedin.com/in/dylan-j-8b3365122/')
+})
+
+// gitBtn2.addEventListener('click',function(){
+//   window.open('https://github.com/jonesdy99')
+// })
+contact.addEventListener('click',function(){
+  window.open('contact.html')
 })
