@@ -11,9 +11,6 @@ body{
   overflow-x: hidden;
   position: relative;
 }
-/* #wrapper{
-  overflow-x: hidden;
-} */
 nav{
   display: flex;
   justify-content: space-around;
@@ -152,8 +149,8 @@ h1 {
   font-weight: bold;
 }
 .card-img-top{
-  justify-content: center;
-  margin-right: auto;
+  text-align: center;
+  width: 100%;
 }
 .btn-primary{
   padding:0.35em 1.2em;
