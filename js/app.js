@@ -77,7 +77,3 @@ contact.addEventListener('click',function(){
 about.addEventListener('click',function(){
   window.open('about.html')
 })
-
-// gitAbt.addEventListener('click',function(){
-//   window.open('https://github.com/jonesdy99')
-// })

@@ -7,6 +7,10 @@
   padding:0;
   box-sizing: border-box;
 }
+body,html{
+  overflow-x: hidden;
+  position: relative;
+}
 nav{
   display: flex;
   justify-content: space-around;
@@ -137,13 +141,15 @@ h1 {
   color: whitesmoke;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 17px;
-
 }
 .card-title{
   color: whitesmoke;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+.card-img-top{
+  display: grid;
 }
 .btn-primary{
   padding:0.35em 1.2em;
@@ -190,7 +196,8 @@ h1 {
 
 @media screen and (max-width:1024px){
   body{
-    overflow-x: hidden;
+  overflow-x: hidden;
+  position: relative;
   }
   .links{
   width:60%;
@@ -247,14 +254,15 @@ h1 {
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:740px){
   body{
     overflow-x: hidden;
-  }
+    position: relative;
+    }
   h1{
    font-size: 50px;
-   margin-left: 170px;
-   justify-content: center;
+   text-align: center;
+   margin-left: auto;
   }
   .links{
     position: absolute;
@@ -268,6 +276,7 @@ h1 {
     width:40%;
     transform:translateX(100%);
     transition: transform 0.5s ease-in;
+    overflow-x: hidden;
   }
   .links li{
     opacity: 0;
