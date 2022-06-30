@@ -266,9 +266,9 @@ h1 {
     position: relative;
     }
   h1{
-   font-size: 50px;
-   text-align: center;
-   margin-left: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
   }
   .links{
     position: absolute;
